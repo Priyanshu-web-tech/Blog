@@ -140,3 +140,11 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+@media screen and (max-width: 800px) {
+  .card_container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+}
